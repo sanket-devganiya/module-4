@@ -1,0 +1,37 @@
+6. What is DDL Interpreter?
+
+==============================================================ANS===============================================================================
+
+A DDL Interpreter is a component within a Database Management System (DBMS) responsible for interpreting and 
+executing Data Definition Language (DDL) commands. These commands are used to define and manage the structure 
+of a database, such as creating, altering, or deleting tables, indexes, and other schema objects.
+
+
+Key Functions of a DDL Interpreter:
+
+
+
+{1.}Interpreting DDL Commands:
+The DDL interpreter translates high-level DDL commands (e.g., CREATE, ALTER, DROP) written in SQL into 
+low-level instructions that the database system can execute.
+
+
+{2.}Managing Schema Definitions:
+It helps manage database schemas by creating and modifying the structure of tables, defining relationships, 
+and setting constraints like primary keys, foreign keys, etc.
+
+
+
+
+{3.}pdating System Catalog:
+Once a DDL command is executed, the DDL interpreter updates the system catalog (metadata) with information about 
+the new or modified objects (e.g., tables, columns, data types).  
+
+
+*****Example of DDL Commands:*******
+CREATE TABLE, ALTER TABLE, DROP TABLE.
+
+
+==================================================================================================================================================
+
+

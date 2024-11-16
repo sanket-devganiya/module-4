@@ -1,0 +1,54 @@
+What is Difference between DBMS and RDBMS?
+
+=================================================================ANS=============================================================================
+
+
+1. Data Structure:
+DBMS: Data is stored as files in a hierarchical or navigational form.
+RDBMS: Data is stored in tables (rows and columns) where each table has a unique key, following the relational model.
+
+
+
+
+2. Relationships Between Data:
+DBMS: There is no relationship between the data; it lacks foreign keys or primary key relationships.
+RDBMS: Data is related through foreign keys, and relational integrity is enforced using primary and foreign keys.
+
+
+
+
+3. Normalization:
+DBMS: Does not support normalization (organizing data to reduce redundancy).
+RDBMS: Follows normalization principles, ensuring minimal redundancy and better data organization.
+
+
+
+
+4. Data Integrity:
+DBMS: Does not enforce data integrity constraints.
+RDBMS: Enforces ACID (Atomicity, Consistency, Isolation, Durability) properties, ensuring data integrity.
+
+
+
+
+5. Support for Complex Queries:
+DBMS: Limited support for complex querying.
+RDBMS: Provides support for complex queries using SQL (Structured Query Language).
+
+
+
+
+6. Multi-user Access:
+DBMS: Usually allows single-user access.
+RDBMS: Supports multiple users accessing the database simultaneously with proper security mechanisms.
+
+
+
+7. Examples:
+DBMS: File systems, XML databases.
+RDBMS: MySQL, PostgreSQL, Oracle, SQL Server.
+
+
+==================================================================================================================================================
+
+

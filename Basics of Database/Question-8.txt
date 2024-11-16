@@ -1,0 +1,71 @@
+What is SQL Key Constraints writing an Example of SQL Key Constraints
+
+ANS----
+      -------
+            ------->>> SOL Key Constraints are rules that ensure the integrity and validity of the data within a database 
+            by uniquely identifying records, enforcing relationships between tables, and maintaining consistency. 
+            These constraints are applied to keys, which are specific columns in a table.
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Types of SQL Key Constraints: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+
+1. Primary Key (PK): Ensures that each record in a table is unique and cannot be NULL. 
+A table can only have one primary key.
+
+
+
+2. Foreign Key (FRK): Enforces a relationship between two tables. It ensures that the 
+value in one table must match a value in another table.
+
+
+
+3. Unique Key: Ensures that all the values in a column or a group of columns are unique, 
+allowing NULL values (except in cases where NOT NULL, is also applied).
+
+
+4. Candidate Key: Any column or set of columns that could qualify as a unique key but isn't the primary key.
+
+
+
+5. Composite Key: A primary key made up of more than one column.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Example of Key Constraints: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PRIMARY KEY:
+
+CREATE TABLE Students (StudentID INT PRIMARY KEY, Name VARCHAR (50), Age INT
+
+
+
+FOREIGN KEY:
+
+CREATE TABLE Enrolments (EnrollimentiDINT PRIMARY KEY, Studenti, CourseIDUNT, FOREIGN KEY (StudentID) REFERENCES Students StudentiD));
+
+
+UNIQUE KEY:
+
+CREATE TABLE Teachers (TeacherD INT PRIMARY KEY, Email VARCHAR(100) UNIQUE);
+
+
+
+COMPOSITE PRIMARY KEY:
+
+CREATE TABLE Orders (OrderIDINT, ProductIDIT, Quantity, PRIMARY KEY (OrderID, ProductID));
+
+
+
+>> Explanation:
+
+The Primary Key in the 'Students' table ensures that 'StudentID uniquely identifies each student and cannot be null.
+
+The Foreign Key in the 'Enrollments' table links "StudentID' to the Students table, ensuring that any student enrolled 
+exists in the "Students' table.
+
+
+=================================================================================================================================================
+
+

@@ -1,0 +1,33 @@
+5. What do you understand By Data Redundancy? 
+
+=========================================================ANS=======================================================================================
+
+Data redundancy refers to the unnecessary duplication of data within a database or data storage system. 
+It occurs when the same piece of data is stored in multiple places, leading to inefficiencies and 
+potential problems in data management.
+
+
+************************************************Key Points about Data Redundancy*****************************************************************
+
+{1} Unnecessary Duplication:
+--When the same data is repeated across multiple locations, it increases the amount of 
+data stored unnecessarily.
+
+
+{2.} problems with Inconsistency:
+--when redundant data is updated in one place but not in others, it can lead to data inconsistency,
+ meaning different copies of the same data might not match.
+
+
+{3.} wasted Storage:
+--Storing the same data multiple times consumes more storage space, leading to 
+inefficient use of resources.
+
+
+{4.} Maintenance Issues:
+--Updating or deleting redundant data becomes complex and error-prone since all copies 
+must be updated simultaneously to avoid inconsistency. 
+
+
+==================================================================================================================================================
+

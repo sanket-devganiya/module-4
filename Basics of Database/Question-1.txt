@@ -1,0 +1,45 @@
+1. What do you understand By Database.
+
+===================================================== Answer=====================================================================================
+
+ *---A database is an organized collection of data that is stored and accessed electronically. 
+It is designed to efficiently store, retrieve, and manage large amounts of information in a structured format.
+Databases can store different types of data, such as text, numbers, images, and more, and are widely used in
+applications ranging from websites to enterprise-level systems.
+
+Key components and concepts related to databases include:
+
+{1.Tables:} In relational databases, data is stored in tables 
+made up of rows and columns. Each row represents a record, 
+and each column represents a field within the record.
+
+
+{2.Schema:} This is the structure that defines how the data is organized in the database,
+including tables, fields, and relationships between them.
+
+
+{3.Database Management System (DBMS):} A software that interacts with the database to manage, 
+store, and retrieve data. Examples of DBMSs include MySQL, PostgreSQL, Oracle, and MongoDB.
+
+
+{4.SQL (Structured Query Language):} A language used to communicate with and perform operations on 
+a relational database, such as querying data, updating records, or managing database structures.
+
+
+{5.Indexing:} A technique used to speed up the retrieval of data by creating a structure that allows 
+for faster searching.
+
+{6.Normalization:} A process to organize data in a database to reduce redundancy and improve data integrity.
+
+
+{7.Transactions:} Operations that ensure data consistency, especially in multi-user environments, by grouping 
+a set of database actions into a single unit.......
+
+===================================================================================================================================================
+
+
+
+
+
+
+ 
